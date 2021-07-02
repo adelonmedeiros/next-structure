@@ -1,8 +1,13 @@
-.container {
+.helloImg {
     width: 100%;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    height: auto;
+}
 
+.button {
+    color: var(--purple);
+}
+
+.container {
     h1 {
         font: 600 1.875rem "Inter", sans-serif;
 
@@ -12,11 +17,17 @@
     }
 }
 
-.helloImg {
-    width: 50%;
-    height: auto;
-}
+.section {
+    padding: 5rem 0;
 
-.button {
-    color: var(--purple);
+    .container {
+        margin: 0;
+        display: grid;
+        gap: 2rem;
+    }
+
+    .text {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
 }

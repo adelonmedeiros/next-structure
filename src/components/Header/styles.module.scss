@@ -1,13 +1,24 @@
 .header {
-    height: 4.5rem;
+    width: 100%;
 }
 
+.nav {
+    height: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.logo{
+    font: 600 1.875rem "Inter", sans-serif;
+    font-size: 1.35rem;
 
-    .nav {
-        display: flex;
-       justify-content: space-between;
+    span {
+        color: var(--purple);
     }
-   
+}
 
-
+.container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
