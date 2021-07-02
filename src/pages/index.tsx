@@ -1,19 +1,24 @@
-import Head from 'next/head'
+import Head from "next/head";
 import styles from "./home.module.scss";
+import HelloWorld from "../assets/images/HelloWorld.svg";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>OriginNext</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <section>
+          <div className={styles.container}>
+          <img className={styles.helloImg} src={HelloWorld} alt="HelloIMG"></img>
+          <h1> Passionate. Creative. Love what I do. <br />  Let us get <span>creative</span>.</h1>
+          <a className={styles.button} href="#">Talk to me! 👋 </a>
+          </div>
+        </section>
       </main>
     </>
-  )
+  );
 }
