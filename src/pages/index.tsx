@@ -17,14 +17,39 @@ export default function Home() {
               <img className={styles.helloImg} src={HelloWorld} alt="HelloImg"></img>
             </div>
             <div className={styles.text}>
-              <h1> Passionate. Creative. Love what I do. <br />  Let us get <span>creative</span>.</h1>
+              <h2 className={styles.title}> Passionate. Focused. Love what I do. <br />  Let us get <span>creative</span>.</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               <a className={styles.button} href="#">Talk to me! 👋 </a>
             </div>
           </div>
         </section>
 
-      <div className={styles.divider1}></div>
+        <div className={styles.divider1}></div>
+
+        <section className={styles.section} id={"home"}>
+          <div className={styles.containerGrid}>Home
+          </div>
+        </section>
+
+        <section className={styles.section} id={"about"}>
+          <div className={styles.containerGrid}>About
+          </div>
+        </section>
+
+        <section className={styles.section} id={"services"}>
+          <div className={styles.containerGrid}>Services
+          </div>
+        </section>
+
+        <section className={styles.section} id={"projects"}>
+          <div className={styles.containerGrid}>Projects
+          </div>
+        </section>
+
+        <section className={styles.section} id={"contact"}>
+          <div className={styles.containerGrid}>Contact
+          </div>
+        </section>
 
       </main>
     </>

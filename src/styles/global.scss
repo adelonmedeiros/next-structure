@@ -8,6 +8,7 @@
     --purple: #8f63ff;
     --body-color: #f8f8f8;
     --text-color: #757575;
+    --header-height: 4.5rem;
 }
 
 @media (max-width: 1080px) {
@@ -34,6 +35,16 @@ button {
     font: 400 1rem "Lexend Deca", sans-serif;
     color: black;
     -webkit-font-smoothing: antialiased;
+}
+
+.title{
+    font: 600 1.875rem 'Inter', sans-serif;
+    
+}
+
+.grid{
+    display: grid;
+    gap: 2rem;
 }
 
 p {
