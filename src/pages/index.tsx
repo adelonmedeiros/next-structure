@@ -18,10 +18,14 @@ export default function Home() {
             </div>
             <div className={styles.text}>
               <h1> Passionate. Creative. Love what I do. <br />  Let us get <span>creative</span>.</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               <a className={styles.button} href="#">Talk to me! 👋 </a>
             </div>
           </div>
         </section>
+
+      <div className={styles.divider1}></div>
+
       </main>
     </>
   );

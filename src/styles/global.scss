@@ -7,6 +7,7 @@
 :root {
     --purple: #8f63ff;
     --body-color: #f8f8f8;
+    --text-color: #757575;
 }
 
 @media (max-width: 1080px) {
@@ -31,12 +32,16 @@ textarea,
 select,
 button {
     font: 400 1rem "Lexend Deca", sans-serif;
+    color: black;
     -webkit-font-smoothing: antialiased;
+}
+
+p {
+    color: var(--text-color);
 }
 
 a {
     color: inherit;
     text-decoration: none;
 }
-
 
