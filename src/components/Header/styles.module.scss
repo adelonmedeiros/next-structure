@@ -37,13 +37,12 @@
     }
 }
 
-    .nav {
-        .menu{
-        
+.nav {
+    .menu {
         opacity: 1;
         visibility: visible;
 
-        background: var(--purple);
+        //background: var(--purple);
 
         height: 100vh;
         width: 100vw;
@@ -51,7 +50,7 @@
         top: 0;
         left: 0;
 
-        .grid{
+        .grid {
             display: grid;
             gap: 4rem;
         }
@@ -62,7 +61,20 @@
     }
 }
 
-.title{
-    font: 600 1.875rem 'Inter', sans-serif;
+.nav {
+    .menu {
+        display: grid;
+        place-content: center;
+    }
+}
+
+.title {
+    font: 600 1.875rem "Inter", sans-serif;
+
+    transition: 0.2s;
+
+    &:hover {
+        color: var(--body-color);
+    }
 }
 
