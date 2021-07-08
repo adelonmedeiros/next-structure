@@ -27,11 +27,8 @@ body {
     background: var(--body-color);
 }
 
-body,
-input,
-textarea,
-select,
-button {
+body
+{
     font: 400 1rem "Lexend Deca", sans-serif;
     color: black;
     -webkit-font-smoothing: antialiased;

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "./home.module.scss";
 import HelloWorld from "../assets/images/HelloWorld.svg";
+import { VscChromeClose } from "react-icons/vsc";
 
 export default function Home() {
   return (

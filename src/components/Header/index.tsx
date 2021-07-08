@@ -1,4 +1,5 @@
 import styles from "./styles.module.scss";
+import { VscChromeClose } from "react-icons/vsc";
 
 export function Header() {
   return (
@@ -19,7 +20,7 @@ export function Header() {
           </div>
 
           <div className={styles.open}>...</div>
-          <div className={styles.close}>x</div>
+          <div className={styles.close}>IoClose</div>
 
         </nav>
       </div>
