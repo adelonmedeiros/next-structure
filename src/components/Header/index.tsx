@@ -1,11 +1,11 @@
 import styles from "./styles.module.scss";
-import { VscChromeClose } from "react-icons/vsc";
+import { VscChromeClose, VscThreeBars } from "react-icons/vsc";
 
 export function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.container}>
-        <nav className={styles.nav} id={"show"} >
+        <nav className={styles.nav} > 
           <a className={styles.logo} href="#">
             adelon<span>medeiros</span>.
           </a>
@@ -19,10 +19,12 @@ export function Header() {
             </ul>
           </div>
 
-          <div className={styles.open}>...</div>
-          <div className={styles.close}>IoClose</div>
-
+          <div className={styles.toggle}>
+          <div className={styles.open}><VscThreeBars /></div>
+          <div className={styles.close}><VscChromeClose /></div>
+          </div>
         </nav>
+        
       </div>
 
       <div className={styles.dividerHeader}></div>
